@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant highlight (&:where(.highlight, .highlight *));
+
+@theme {
+	--font-fira: "Fira Code", monospace;
+
+	--color-background: var(--color-white);
+	--color-background-elevate: var(--color-white);
+
+	--color-text-solid: var(--color-black);
+	--color-text: var(--color-neutral-700);
+
+	--color-border: var(--color-neutral-300);
+	--color-border-solid: var(--color-neutral-400);
+
+	/* Кнопки */
+
+	--color-button-hover: var(--color-neutral-200);
+	--color-button-active: var(--color-neutral-300);
+
+	--color-button-dark: var(--color-neutral-800);
+	--color-button-hover-dark: var(--color-neutral-700);
+	--color-button-active-dark: var(--color-neutral-600);
+}
+
+.dark {
+	--color-background: var(--color-neutral-900);
+	--color-background-elevate: var(--color-neutral-800);
+
+	--color-text-solid: var(--color-white);
+	--color-text: var(--color-neutral-400);
+
+	--color-border: var(--color-neutral-600);
+	--color-border-solid: var(--color-neutral-500);
+
+	/* Кнопки */
+
+	--color-button-hover: var(--color-neutral-700);
+	--color-button-active: var(--color-neutral-600);
+
+	--color-button-dark: var(--color-white);
+	--color-button-hover-dark: var(--color-neutral-300);
+	--color-button-active-dark: var(--color-neutral-400);
+}
+
+body {
+	@apply bg-background text-text font-fira;
+}
+
+button {
+	@apply cursor-pointer;
+}
+
+a {
+	@apply select-none;
+}
+
+.button-nav {
+	@apply text-text-solid rounded-full hover:bg-button-hover active:bg-button-active;
+
+	@variant highlight {
+		@apply bg-button-hover;
+	}
+}
+
+.button-solid {
+	@apply text-background bg-button-dark border border-button-dark hover:bg-button-hover-dark hover:border-button-hover-dark active:bg-button-active-dark active:border-button-active-dark;
+}
+
+.button-outline {
+	@apply text-text-solid border-border-solid hover:bg-button-hover active:bg-button-active;
+}
