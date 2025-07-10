@@ -1,9 +1,5 @@
 import { Header } from "@/components/Header"
 
-const Age = () => {
-	return <span>23</span>
-}
-
 export const About = () => {
 	return (
 		<section>
