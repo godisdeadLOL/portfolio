@@ -4,14 +4,14 @@
 ***
 
 ## 🚀 Демо
-[Перейдите по ссылке](https://godisdeadlol.github.io/portfolio)
+🔗 [Открыть сайт](https://godisdeadlol.github.io/portfolio)
 
 ## ✨ Особенности
 - 📱 Адаптивный дизайн
 - 🌓 Темная тема
 
 ## 🛠 Технологии
-- TypeScript
-- Tailwind
-- Preact
-- Vite
+- **TypeScript**
+- **Tailwind**
+- **Preact**
+- **Vite**

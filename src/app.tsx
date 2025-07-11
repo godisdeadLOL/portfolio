@@ -6,6 +6,7 @@ import { Skills } from "@/page/Skills"
 import { Projects } from "@/page/Projects"
 import { Footer } from "@/page/Footer"
 import { Intro } from "@/page/Intro"
+import { Experience } from "@/page/Experience"
 
 export function App() {
 	return (
@@ -21,6 +22,7 @@ export function App() {
 
 				<About />
 				<Skills />
+				<Experience />
 				<Projects />
 
 				<Footer />

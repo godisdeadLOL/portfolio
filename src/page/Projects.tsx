@@ -28,11 +28,15 @@ export const Projects = () => {
 
 			<CategorySelector categories={categories} value={category} setValue={setCategory} className="mb-8 select-none " />
 
-			<div class="space-y-4">
-				{filteredProjects.map((project, index) => (
-					<ProjectCard key={index} projectData={project} />
-				))}
-			</div>
+			{
+				projects.length > 0 ?
+					<div class="space-y-4">
+						{filteredProjects.map((project, index) => (
+							<ProjectCard key={index} projectData={project} />
+						))}
+					</div> :
+					<div class="text-text-solid">Загрузка...</div>
+			}
 		</section>
 	)
 }
