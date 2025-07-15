@@ -21,7 +21,7 @@ export const Experience = () => {
                 <div class="h-[1px] bg-border w-full mt-4 mb-6" />
 
                 <div class="text-justify">
-                    офисный пакет офисный пакет офисный пакет
+                    На практике сравнивал, как часто пользуются разными функциями в Microsoft Office и МойОфис, по логам. Часть задач автоматизировал на Python, потом писал SQL-запросы к ClickHouse, чтобы анализировать данные.
                 </div>
 
                 <div class="flex mt-4 gap-2 flex-wrap">
@@ -40,7 +40,7 @@ export const Experience = () => {
                 <div class="h-[1px] bg-border w-full mt-4 mb-6" />
 
                 <div class="text-justify">
-                    делал яндекс игры лол с десяток сделал а денег нет вот грустно
+                    Делал игры для Яндекс.Игр — разработал около десяти штук. Получилось немного заработать на монетизации.
                 </div>
 
                 <Collapsible title="примеры" className="mt-4 mb-6 -mx-2">
