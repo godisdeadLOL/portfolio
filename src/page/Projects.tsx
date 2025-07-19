@@ -2,12 +2,12 @@ import { CategorySelector } from "@/components/CategorySelector"
 import { Header } from "@/components/Header"
 import { ProjectCard } from "@/components/ProjectCard"
 import { type Project } from "@/schemas"
-import { useEffect, useState } from "preact/hooks"
+import { useState } from "preact/hooks"
 
 import data from "@/data/projects.json"
 
 export const Projects = () => {
-	const [projects, setProjects] = useState<Project[]>(data)
+	const projects: Project[] = data
 
 	const categories = [
 		{ key: "all", name: "всё" },
