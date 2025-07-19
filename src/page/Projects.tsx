@@ -4,14 +4,10 @@ import { ProjectCard } from "@/components/ProjectCard"
 import { type Project } from "@/schemas"
 import { useEffect, useState } from "preact/hooks"
 
+import data from "@/data/projects.json"
+
 export const Projects = () => {
-	const [projects, setProjects] = useState<Project[]>([])
-	useEffect(() => {
-		fetch("data/projects.json")
-			.then((response) => response.json())
-			.then((data) => setProjects(data))
-		// todo: ошибка
-	}, [])
+	const [projects, setProjects] = useState<Project[]>(data)
 
 	const categories = [
 		{ key: "all", name: "всё" },
