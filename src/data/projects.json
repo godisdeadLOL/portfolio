@@ -1,7 +1,7 @@
 [
 	{
 		"title": "todo-app ✅",
-		"description": "Kanban-доску для управления задачами с поддержкой тегов, шагов и статусов.",
+		"description": "Kanban-доска для управления задачами с поддержкой тегов, шагов и статусов.",
 		"tags": ["react", "typescript", "redux", "scss"],
 		"github": "https://github.com/godisdeadLOL/todo-app",
 		"demo": "https://godisdeadlol.github.io/todo-app",

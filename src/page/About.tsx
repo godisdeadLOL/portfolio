@@ -11,7 +11,7 @@ export const About = () => {
 				<p>В последний год сфокусировался на веб-разработке. Осваиваю React и FastAPI. Уже реализовал несколько небольших личных проектов и постоянно учусь новому.</p>
 			</div>
 
-			<img src="funny.jpg" className="w-xs mx-auto rounded-md" />
+			<img src="funny.jpg" className="max-w-xs mx-auto rounded-md" />
 		</section>
 	)
 }
