@@ -44,9 +44,9 @@ export const Experience = () => {
                 </div>
 
                 <Collapsible title="примеры" className="mt-4 mb-6 -mx-2">
-                    <Link to="lol">Падение Нубика</Link>
-                    <Link to="lol">Безумная Кирка</Link>
-                    <Link to="lol">Резня Плейграунд</Link>
+                    <Link to="https://yandex.ru/games/app/281797">Падение Нубика</Link>
+                    <Link to="https://yandex.ru/games/app/432647">Безумная Кирка</Link>
+                    <Link to="https://yandex.ru/games/app/442334">Резня Плейграунд</Link>
                 </Collapsible>
 
                 <div class="flex gap-2 flex-wrap">
