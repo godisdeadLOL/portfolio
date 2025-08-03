@@ -1,5 +1,13 @@
 [
 	{
+		"title": "voicing-telegram-bot 🎤",
+		"description": "Телеграм бот для озвучивания сценариев и автоматической сборки готового архива с аудиофайлами.",
+		"tags": ["nodejs", "typescript"],
+		"github": "https://github.com/godisdeadLOL/voicing-telegram-bot",
+		"demo": "https://t.me/voicing_telegram_bot",
+		"categories": ["web"]
+	},
+	{
 		"title": "todo-app ✅",
 		"description": "Kanban-доска для управления задачами с поддержкой тегов, шагов и статусов.",
 		"tags": ["react", "typescript", "redux", "scss"],
