@@ -1,11 +1,11 @@
-import type { HTMLAttributes } from "preact/compat"
+import type { ComponentProps, JSX } from "preact/compat"
 
 type DoubleSidedImageProps = {
 	frontSrc: string
 	backSrc: string
 
 	className?: string
-} & HTMLAttributes<HTMLDivElement>
+} & ComponentProps<"div">
 
 export function DoubleSidedImage({ frontSrc, backSrc, className, ...other }: DoubleSidedImageProps) {
 	const imgClass = "block transition-transform duration-500 backface-hidden pointer-events-none select-none"

@@ -11,7 +11,7 @@ export const Collapsible = ({ title, className, children }: CollapsibleProps) =>
 	const [expanded, setExpanded] = useState(false)
 
 	return (
-		<div className={className}>
+		<div className={`${className} [overflow-anchor:none]`}>
 			<div class="mt-4 mb-2 px-2 py-1 bg-button-hover active:bg-button-active rounded-md flex justify-between items-center select-none cursor-pointer" onClick={() => setExpanded((value) => !value)}>
 				{title}
 				{expanded ? <LuChevronUp /> : <LuChevronDown />}
