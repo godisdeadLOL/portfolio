@@ -1,4 +1,4 @@
-import type { ComponentProps, JSX } from "preact/compat"
+import type { ComponentProps } from "preact/compat"
 
 type LinkProps = {
 	to: string
