@@ -20,10 +20,12 @@ export function App() {
 
 				<div class="border-b-1 border-border-solid my-16"></div>
 
-				<About />
-				<Skills />
-				<Experience />
-				<Projects />
+				<main>
+					<About />
+					<Skills />
+					<Experience />
+					<Projects />
+				</main>
 
 				<Footer />
 			</div>

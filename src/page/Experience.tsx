@@ -14,15 +14,14 @@ export const Experience = () => {
 					<div class="flex justify-between">
 						<h1 class="text-text-solid font-bold">МойОфис</h1>
 
-						<time>июнь 2022</time>
+						<time>июнь 2023</time>
 					</div>
 					<div>практика от колледжа</div>
 
 					<div class="h-[1px] bg-border w-full mt-4 mb-6" />
 
 					<div class="text-justify">
-						На практике сравнивал, как часто пользуются разными функциями в Microsoft Office и МойОфис, по логам. Часть задач автоматизировал на Python, потом писал SQL-запросы к ClickHouse, чтобы
-						анализировать данные.
+						Анализировал частоту использования функций в Microsoft Office и МойОфис по логам. Автоматизировал часть задач на Python. Формировал SQL-запросы к ClickHouse для анализа данных.
 					</div>
 
 					<div class="flex mt-4 gap-2 flex-wrap">
@@ -36,7 +35,6 @@ export const Experience = () => {
 
 						<time>2023-2025</time>
 					</div>
-					<div>так по приколу</div>
 
 					<div class="h-[1px] bg-border w-full mt-4 mb-6" />
 
