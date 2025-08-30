@@ -1,5 +1,13 @@
 [
 	{
+		"title": "quiz-app 🤓",
+		"secondary": "в разработке",
+		"description": "Викторины с хранением сессий и проверкой на стороне сервера.",
+		"tags": ["react", "typescript", "tailwind", "react-query", "fastapi"],
+		"github": "https://github.com/godisdeadLOL/quiz-app",
+		"categories": ["web"]
+	},
+	{
 		"title": "voicing-telegram-bot 🎤",
 		"description": "Телеграм бот для озвучивания сценариев и автоматической сборки готового архива с аудиофайлами.",
 		"tags": ["nodejs", "typescript"],
