@@ -1,9 +1,17 @@
 [
 	{
+		"title": "headless-form 📝",
+		"secondary": "в разработке",
+		"description": "Преобразование zod-cхемы в форму.",
+		"tags": ["react", "typescript", "zod"],
+		"github": "https://github.com/godisdeadLOL/headless-form",
+		"categories": ["web"]
+	},
+	{
 		"title": "quiz-app 🤓",
 		"secondary": "в разработке",
 		"description": "Викторины с хранением сессий и проверкой на стороне сервера.",
-		"tags": ["react", "typescript", "tailwind", "react-query", "fastapi"],
+		"tags": ["react", "tailwind", "react-query", "fastapi"],
 		"github": "https://github.com/godisdeadLOL/quiz-app",
 		"categories": ["web"]
 	},
